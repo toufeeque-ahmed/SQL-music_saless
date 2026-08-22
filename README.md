@@ -4,11 +4,12 @@ Designed and executed complex SQL queries—including multi-table JOINs, subquer
 
 
 **Q1: Who is the senior most employee based on job title?**
-
+'''SQL
 SELECT title, last_name, first_name 
 FROM employee
 ORDER BY levels DESC
 LIMIT 1
+'''
 
 
 
